@@ -2,6 +2,7 @@ const scheduleData = [
   {
     date: "1/9/18",
     title: "Introduction & Overview",
+    slides: "slides/slides_Jan9.pdf",
     readings: [],
     assignment: [],
     notes: []
@@ -9,6 +10,7 @@ const scheduleData = [
   {
     date: "1/11/18",
     title: "Case Study: Therac-25",
+    slides: "slides/slides_Jan11.pdf",
     readings: [
       {
         text: "Medical Devices: The Therac-25",
@@ -36,11 +38,12 @@ const scheduleData = [
       }
     ],
     assignment: [],
-    notes: [ "Guest Lecturer: Amy Bruckman" ]
+    notes: [ "Guest Lecturer: Julia Deeb-Swihart" ]
   },
   {
     date: "1/18/18",
     title: "Utilitarianism",
+    slides: "slides/slides_Jan18.pdf",
     readings: [
       {
         text: "Quinn 2.1-2.3, 2.7-2.8",
@@ -53,6 +56,7 @@ const scheduleData = [
   {
     date: "1/23/18",
     title: "Deontology & Social Contract Theory",
+    slides: "slides/slides_Jan23.pdf",
     readings: [
       {
         text: "Quinn 2.6, 2.9",
@@ -70,6 +74,7 @@ const scheduleData = [
   {
     date: "1/25/18",
     title: "Core & Logical Structure of Arguments",
+    slides: "slides/slides_Jan25.pdf",
     readings: [
       {
         text: "WA 3 & 4",
@@ -345,7 +350,7 @@ const scheduleData = [
       }
     ],
     assignment: [],
-    notes: []
+    notes: [ "Guest Lecturer: Julia Deeb-Swihart" ]
   },
   {
     date: "4/3/18",

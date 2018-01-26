@@ -4,6 +4,15 @@ import { Header, List, Table } from 'semantic-ui-react';
 export default class Schedule extends Component {
   render() {
     const scheduleRows = this.props.data.map((row) => {
+      const title = (
+        row["slides"] ?
+        (
+          <a href={row["slides"]} target="_blank">{row["title"]}</a>
+        ) :
+        (
+          row["title"]
+        )
+      )
       const readings = row["readings"].map((reading) => {
         return reading["href"] ?
           (
@@ -29,7 +38,7 @@ export default class Schedule extends Component {
       return (
         <Table.Row>
           <Table.Cell>{ row['date'] }</Table.Cell>
-          <Table.Cell>{ row['title'] }</Table.Cell>
+          <Table.Cell>{ title }</Table.Cell>
           <Table.Cell>
             <List bulleted>{ readings }</List>
           </Table.Cell>

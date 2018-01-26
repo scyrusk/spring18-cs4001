@@ -58,11 +58,15 @@ class App extends Component {
                   </p>
                   <p>
                     <b>Email: </b>
-                    sauvik@gatech.edu
+                    sauvik[at]gatech.edu
                   </p>
                   <p>
                     <b>Office Hours: </b>
                     Wednesdays, from 1-2pm
+                  </p>
+                  <p>
+                    <b>Office: </b>
+                    TSRB 246 (The building with Moe's in it.)
                   </p>
                 </Grid.Column>
                 <Grid.Column width={6}>
@@ -73,7 +77,7 @@ class App extends Component {
                   </p>
                   <p>
                     <b>Email: </b>
-                    jdeeb3@gatech.edu
+                    jdeeb3[at]gatech.edu
                   </p>
                   <p>
                     <b>Office Hours: </b>
